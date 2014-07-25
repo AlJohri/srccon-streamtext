@@ -12,7 +12,7 @@ while True:
 		data = response.json()
 		last = data['lastPosition']
 		stuff = " ".join(map(lambda x: x['d'], data['i']))
-		print urllib.unquote(stuff)
+		if stuff: print urllib.unquote(stuff)
 		time.sleep(2)
 	except ValueError:
 		print "Session %s is not running at the moment." % session
