@@ -1,7 +1,7 @@
 srccon-streamtext
 =================
 
-At #SRCCON trying to stream active sessions from the beginning.
+Missing out on other sessions at #SRCCON? Have serious #FOMO and want to know whats going on in all of the rooms? Run these scripts to view live stenography of all of the sessions!
 
 ## Usage
 
